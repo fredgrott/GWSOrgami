@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GWSOrgami.iml" filepath="$PROJECT_DIR$/GWSOrgami.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gwsorgamilibrary/gwsorgamilibrary.iml" filepath="$PROJECT_DIR$/gwsorgamilibrary/gwsorgamilibrary.iml" />
     </modules>
   </component>
 </project>
