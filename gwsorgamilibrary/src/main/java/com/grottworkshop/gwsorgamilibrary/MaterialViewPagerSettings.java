@@ -34,32 +34,32 @@ public class MaterialViewPagerSettings implements Parcelable {
     //attributes are protected and can be used by class from the same package
     //com.github.florent37.materialviewpager
 
-    protected int headerLayoutId;
-    protected int pagerTitleStripId;
+    public int headerLayoutId;
+    public int pagerTitleStripId;
 
-    protected int logoLayoutId;
-    protected int logoMarginTop;
+    public int logoLayoutId;
+    public int logoMarginTop;
 
-    protected int headerAdditionalHeight;
+    public int headerAdditionalHeight;
 
-    protected int headerHeight;
+    public int headerHeight;
     protected int headerHeightPx;
-    protected int color;
+    public int color;
 
-    protected float headerAlpha;
+    public float headerAlpha;
     protected float parallaxHeaderFactor;
 
     protected boolean hideToolbarAndTitle;
     protected boolean hideLogoWithFade;
     protected boolean enableToolbarElevation;
-    protected boolean displayToolbarWhenSwipe;
+    public boolean displayToolbarWhenSwipe;
 
     /**
      * Retrieve attributes from the MaterialViewPager
      * @param context the context
      * @param attrs the attributes
      */
-    protected void handleAttributes(Context context, AttributeSet attrs){
+    public void handleAttributes(Context context, AttributeSet attrs){
         try {
             TypedArray styledAttrs = context.obtainStyledAttributes(attrs, R.styleable.MaterialViewPager);
             {
