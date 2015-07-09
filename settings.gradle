@@ -1,1 +1,1 @@
-include ':app', ':gwsorgamilibrary', ':gwsmaterialpagerslidingtabstrip', ':gwsobservablescrollview'
+include ':app', ':gwsorgamilibrary', ':gwsmaterialpagerslidingtabstrip', ':gwsobservablescrollview', ':gwskenburns'
